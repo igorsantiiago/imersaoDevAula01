@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+
+        <title>Variáveis, Operações e Média - Imersão Dev Alura - Aula 01</title>
+    </head>
+    <body>
+
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+
+        <div class="container">
+
+            <h1 class="page-title">Calculadora de média</h1>
+
+            <p class="page-subtitle">Descubra qual a sua média de nota de todas as provas</p>
+
+            <div class="media">
+                <label class="notaBimestre" for="nota1">Insira a nota do primeiro bimestre</label>
+                <input type="text" id="nota1" class="notaBimestre" required>
+
+                <label class="notaBimestre" for="nota2">Insira a nota do segundo bimestre</label>
+                <input type="text" id="nota2" class="notaBimestre" required>
+
+                <label class="notaBimestre" for="nota3">Insira a nota do terceiro bimestre</label>
+                <input type="text" id="nota3" class="notaBimestre" required>
+
+                <label class="notaBimestre" for="nota4">Insira a nota do quarto bimestre</label>
+                <input type="text" id="nota4" class="notaBimestre" required>
+
+                <button class="send-button" type="button" onclick="calcMedia()">Calcular Média</button>
+            </div>
+
+            <div id="result"></div>
+
+        </div>
+
+<!---->
+        <div class="container2">
+            <div class="conversao-tempo">
+
+                <h1 class="page-title">Conversor de Celsius para Farenheint</h1>
+
+                <p class="page-subtitle">Insira a temperatura em celsius para converter para farenheint</p>
+
+                <label class="conversaoTemperatura" for="temperatura">Insira a temperatura em Celsius</label>
+                <input type="text" id="temperatura" class="conversaoTemperatura" required>
+
+                <button class="send-button" type="button" onclick="temperatura()">Calcular Temperatura</button>
+
+                <div id="resultado-conversao"></div>
+
+            </div>
+        </div>
+
+<!---->
+        <a href="https://alura.com.br/" target="_blank">
+            <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+        </a> 
+    
+    </body>
+</html>

@@ -1,0 +1,253 @@
+body {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  min-height: 400px;
+  background-color: rgba(9, 52, 104, 10);
+  background-size: 80vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.page-logo {
+    width: 370px;
+    margin: 20px 40vw;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 70vh;
+    width: 80vw;
+    margin: auto;
+    background: rgba(255, 255, 255, 10);
+    background-image: url(https://www.alura.com.br/assets/img/home/homeNova/ilustra-alura-escafandro.1636535198.svg);
+    background-repeat: no-repeat;
+    background-position: 90%;
+    border: 4px dotted #000000;
+    border-radius: 50px;
+}
+
+.page-title {
+    color: #FFFFFF;
+    margin: 20px 0 20px;
+    font-size: 2rem;
+    letter-spacing: 8px;
+}
+
+.page-subtitle {
+    color: rgba(9, 51, 102, 50);
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: 20px;
+    letter-spacing: 4px;
+}
+
+.notaBimestre {
+    display: block;
+    margin: auto;
+    color: rgba(9, 51, 102, 50);
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 5px;
+    letter-spacing: 2px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.send-button {
+    width: 20%;
+    padding: 15px;
+    background: #ffdb60;
+    border: 1px solid #E1D9D1;;
+    border-radius: 20px;
+    margin: 1% 20% 20px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.send-button:hover {
+    opacity: 0.8;
+}
+
+.send-button:active {
+    opacity: 0.6;
+    transform: scale(0.9);
+    transition: 0.1s all;
+}
+
+#result {
+    position: absolute;
+    color: rgba(9, 51, 102, 50);
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: -260px;
+    margin-left: 50px;
+}
+
+.container2 {
+    text-align: center;
+    padding: 20px;
+    height: 45vh;
+    width: 80vw;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 10);
+    background-position: 90%;
+    border: 4px dotted #000000;
+    border-radius: 50px;
+}
+
+.conversaoTemperatura {
+    display: block;
+    margin: auto;
+    color: rgba(9, 51, 102, 50);
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 5px;
+    letter-spacing: 2px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#resultado-conversao {
+    position: absolute;
+    color: rgba(9, 51, 102, 50);
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 20%;
+}
+
+.alura-logo {
+    width: 90px;
+    position: absolute;
+    top: 40px;
+    right: 50px;
+}
+
+
+@media (min-width: 320px) {
+    .page-logo {
+        width: 80vw;
+        margin:10%;
+    }
+
+    .alura-logo {
+        display: none;
+    }
+
+    .page-title {
+        margin: 5px 0 5px;
+        font-size: 1.5rem;
+        letter-spacing: 8px;
+        color: rgba(9, 51, 102, 50);
+        font-weight: bold;
+    }
+    
+    .page-subtitle {
+        font-size: 1rem;
+        letter-spacing: 1px;
+    }
+
+    .notaBimestre {
+        font-size: .8rem;
+        padding: 5px;
+        letter-spacing: 1px;
+    }
+
+    .send-button {
+        width: 70%;
+        margin: 5% 10% 10%;
+        font-size: 15px;
+    }
+
+    #result {
+        color: #FFFFFF;
+        font-size: 1.5rem;
+        margin-top:  14%;
+        margin-left: 15%;
+    }
+
+    .container2 {
+        margin-top: 90px;
+        height: 55vh;
+    }
+
+    #resultado-conversao {
+        color: #FFFFFF;
+        font-size: 1.5rem;
+        margin-top:  10%;
+        margin-left: -10%;
+    }
+
+    @media (min-width: 410px) {
+        .container {
+            height: 50vh;
+        }
+        #result {
+            margin-top:  -3%;
+            margin-left: 17%;
+        }
+        .container2 {
+            height: 45vh;
+        }
+    }
+    
+
+    @media (min-width: 1200px) {
+        .page-logo {
+            width: 370px;
+            margin: 20px 40vw;
+        }
+    
+        .alura-logo {
+            display: unset;
+        }
+
+        .container {
+            height: 70vh;
+        }
+    
+        .page-title {
+            color: #FFFFFF;
+            margin: 20px 0 20px;
+            font-size: 2rem;
+            color: rgba(9, 51, 102, 50);
+            font-weight: bold;
+        }
+        
+        .page-subtitle {
+            font-size: 1.3rem;
+            letter-spacing: 4px;
+        }
+    
+        .notaBimestre {
+            font-size: 1.1rem;
+            padding: 5px;
+            letter-spacing: 2px;
+        }
+        
+        .send-button {
+            width: 20%;
+            margin: 1% 20% 20px;
+            font-size: 15px;
+        }
+    
+        #result {
+            color: rgba(9, 51, 102, 50);
+            font-size: 2rem;
+            margin-top: 10px;
+            margin-left: 34%;
+        }
+
+        .container2 {
+            height: 55vh;
+        }
+
+        #resultado-conversao {
+            color: rgba(9, 51, 102, 50);
+            font-size: 2rem;
+            font-weight: bold;
+            margin-top:  0%;
+            margin-left: 19%;
+        }
+    }
+}
