@@ -20,5 +20,5 @@ function temperatura() {
 
     console.log(conversao);
 
-    document.querySelector("#resultado-conversao").innerHTML = ("A conversão de " + temperatura + " graus Celsius em Fahrenheit é: <br>") + conversao;
+    document.querySelector("#resultado-conversao").innerHTML = ("A conversão de " + temperatura + " graus Celsius em Fahrenheit é: <br>" + conversao + " Fahrenheit");
 }
